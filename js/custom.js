@@ -34,3 +34,12 @@
     $('.social-links a').tooltip();
 
 })(jQuery);
+
+// DARKMODE FOR GTIHUB LOGO
+function darkMode_logo() {
+  let square = document.getElementById("github_logo")
+  square.classList.toggle("dark-mode-github")
+
+  let medium = document.getElementById("medium_logo")
+  medium.classList.toggle("dark-mode-medium")
+}

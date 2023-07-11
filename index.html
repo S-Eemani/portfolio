@@ -44,6 +44,21 @@
 </head>
 
 <body>
+  <!-- SIDE SOCIAL BAR -->
+  <div class="sticky-container">
+    <ul class="sticky">
+      <li>
+        <a href="https://www.linkedin.com/in/sowmya-eemani/"><i class="fa fa-linkedin-square"
+            style="font-size:48px;color:#2C2CDB"></i></a>
+      </li>
+      <li>
+        <a href="https://github.com/S-Eemani"><i class="fa fa-github gitlogo" style="font-size:48px;" id="github_logo"></i></a>
+      </li>
+      <li>
+        <a href="https://medium.com/@Sowmya_Eemani"><i class="fa fa-medium mediumLogo" style="font-size:38px;" id="medium_logo"></i></a>
+      </li>
+    </ul>
+  </div>
 
   <!-- MENU -->
   <nav class="navbar navbar-expand-sm navbar-light" style="background-color: wheat;">
@@ -85,7 +100,7 @@
         </ul>
 
         <ul class="navbar-nav ml-lg-auto">
-          <div class="ml-lg-4">
+          <div class="ml-lg-4" onclick="darkMode_logo()">
             <div class="color-mode d-lg-flex justify-content-center align-items-center">
               <i class="color-mode-icon"></i>
               Color mode
@@ -117,16 +132,6 @@
               <br>&nbsp; &nbsp; &nbsp; - Abert Einstein
             </p>
             </p>
-
-            <div class="custom-btn-group mt-4 d-flex align-items-center" style="gap: 1rem;">
-              <a href="https://www.linkedin.com/in/sowmya-eemani/"><i class="fa fa-linkedin-square"
-                  style="font-size:48px;color:#2C2CDB"></i></a>
-              <a href="https://github.com/S-Eemani"><i class="fa fa-github" style="font-size:48px;color:red"></i></a>
-              <a href="https://medium.com/@Sowmya_Eemani"><i class="fa fa-medium"
-                  style="font-size:38px;color: cyan;"></i></a>
-              <!-- <img width="45" height="45" src="https://img.icons8.com/fluency/48/gmail-new.png" alt="gmail-new"/> -->
-
-            </div>
           </div>
         </div>
 
@@ -370,7 +375,7 @@
 
   <!-- CONTACT -->
   <section class="contact py-5" id="contact">
-    <div class="container">
+    <div class="container" style="width: auto;">
       <div class="row">
 
         <div class="col-lg-5 mr-lg-5 col-12">
@@ -379,6 +384,8 @@
               <h3 class="mb-3 text-white">Say hello</h3>
               <!-- <p class="footer-text mb-0"></p> -->
               <p><a href="mailto:sowmya3221@gmail.com">sowmya3221@gmail.com</a></p>
+              <p><a href="https://www.linkedin.com/in/sowmya-eemani/">linkedin.com/in/sowmya-eemani/</a></p>
+              <p><a href="https://github.com/S-Eemani">github.com/S-Eemani</a></p>
             </div>
 
             <!-- <ul class="social-links">
@@ -438,7 +445,7 @@
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/smoothscroll.js"></script>
   <script src="js/custom.js"></script>
-  <script src="index.js"></script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
